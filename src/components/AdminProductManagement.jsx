@@ -229,9 +229,13 @@ const AdminProductManagement = () => {
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                             <div className="flex justify-end gap-2">
-                              <button className="p-2 text-charcoal/60 hover:text-charcoal dark:text-off-white/60 dark:hover:text-off-white" title="Edit Product">
+                              <a
+                                className="p-2 text-charcoal/60 hover:text-charcoal dark:text-off-white/60 dark:hover:text-off-white"
+                                href="/products/edit"
+                                title="Edit Product"
+                              >
                                 <span className="material-symbols-outlined text-base">edit</span>
-                              </button>
+                              </a>
                               <button className="p-2 text-red-500 hover:text-red-600 dark:hover:text-red-400" title="Delete Product">
                                 <span className="material-symbols-outlined text-base">delete</span>
                               </button>
