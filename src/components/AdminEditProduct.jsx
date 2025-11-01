@@ -33,6 +33,13 @@ const AdminEditProduct = () => (
               </a>
               <a
                 className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
+                href="/products/categories"
+              >
+                <span className="material-symbols-outlined">folder</span>
+                <p className="text-sm font-medium leading-normal">Categories</p>
+              </a>
+              <a
+                className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
                 href="#"
               >
                 <span className="material-symbols-outlined">shopping_bag</span>

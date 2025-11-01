@@ -29,6 +29,13 @@ const AdminDashboard = () => (
                 <span className="material-symbols-outlined">grass</span>
                 <p className="text-sm font-medium leading-normal">Products</p>
               </a>
+              <a
+                className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
+                href="/products/categories"
+              >
+                <span className="material-symbols-outlined">folder</span>
+                <p className="text-sm font-medium leading-normal">Categories</p>
+              </a>
               <a className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80" href="#">
                 <span className="material-symbols-outlined">shopping_bag</span>
                 <p className="text-sm font-medium leading-normal">Orders</p>
@@ -196,9 +203,12 @@ const AdminDashboard = () => (
                 >
                   <span className="material-symbols-outlined">add_circle</span> Add New Product
                 </a>
-                <button className="flex w-full items-center justify-center gap-2 rounded-lg bg-white dark:bg-background-dark px-5 py-4 text-charcoal dark:text-off-white text-base font-semibold border border-beige-neutral dark:border-white/10 hover:bg-off-white dark:hover:bg-background-dark/70 transition-colors">
+                <a
+                  className="flex w-full items-center justify-center gap-2 rounded-lg bg-white dark:bg-background-dark px-5 py-4 text-charcoal dark:text-off-white text-base font-semibold border border-beige-neutral dark:border-white/10 transition-colors hover:bg-off-white dark:hover:bg-background-dark/70"
+                  href="/products/categories"
+                >
                   <span className="material-symbols-outlined">category</span> Manage Categories
-                </button>
+                </a>
                 <button className="flex w-full items-center justify-center gap-2 rounded-lg bg-white dark:bg-background-dark px-5 py-4 text-charcoal dark:text-off-white text-base font-semibold border border-beige-neutral dark:border-white/10 hover:bg-off-white dark:hover:bg-background-dark/70 transition-colors">
                   <span className="material-symbols-outlined">ios_share</span> Export Report
                 </button>

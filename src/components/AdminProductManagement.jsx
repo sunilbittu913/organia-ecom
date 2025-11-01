@@ -70,20 +70,27 @@ const AdminProductManagement = () => {
                   <span className="material-symbols-outlined">dashboard</span>
                   <p className="text-sm font-medium leading-normal">Dashboard</p>
                 </a>
-                <a
-                  aria-current="page"
-                  className="flex items-center gap-3 px-3 py-2 rounded-lg bg-green-primary/15 text-green-primary font-semibold"
-                  href="/products"
-                >
-                  <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>
-                    inventory_2
-                  </span>
-                  <p className="text-sm leading-normal">Products</p>
-                </a>
-                <a
-                  className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
-                  href="#"
-                >
+              <a
+                aria-current="page"
+                className="flex items-center gap-3 px-3 py-2 rounded-lg bg-green-primary/15 text-green-primary font-semibold"
+                href="/products"
+              >
+                <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>
+                  inventory_2
+                </span>
+                <p className="text-sm leading-normal">Products</p>
+              </a>
+              <a
+                className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
+                href="/products/categories"
+              >
+                <span className="material-symbols-outlined">folder</span>
+                <p className="text-sm font-medium leading-normal">Categories</p>
+              </a>
+              <a
+                className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
+                href="#"
+              >
                   <span className="material-symbols-outlined">shopping_bag</span>
                   <p className="text-sm font-medium leading-normal">Orders</p>
                 </a>
