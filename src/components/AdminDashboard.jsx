@@ -36,7 +36,7 @@ const AdminDashboard = () => (
                 <span className="material-symbols-outlined">folder</span>
                 <p className="text-sm font-medium leading-normal">Categories</p>
               </a>
-              <a className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80" href="#">
+              <a className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80" href="/orders">
                 <span className="material-symbols-outlined">shopping_bag</span>
                 <p className="text-sm font-medium leading-normal">Orders</p>
               </a>
@@ -135,7 +135,7 @@ const AdminDashboard = () => (
             <div className="lg:col-span-2">
               <div className="flex justify-between items-center mb-4">
                 <h2 className="text-charcoal dark:text-off-white text-xl font-bold leading-tight">Recent Orders</h2>
-                <a className="text-green-primary text-sm font-semibold hover:underline" href="#">
+                <a className="text-green-primary text-sm font-semibold hover:underline" href="/orders">
                   View All Orders
                 </a>
               </div>

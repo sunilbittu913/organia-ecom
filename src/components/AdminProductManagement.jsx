@@ -89,25 +89,25 @@ const AdminProductManagement = () => {
               </a>
               <a
                 className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
+                href="/orders"
+              >
+                <span className="material-symbols-outlined">shopping_bag</span>
+                <p className="text-sm font-medium leading-normal">Orders</p>
+              </a>
+              <a
+                className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
                 href="#"
               >
-                  <span className="material-symbols-outlined">shopping_bag</span>
-                  <p className="text-sm font-medium leading-normal">Orders</p>
-                </a>
-                <a
-                  className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
-                  href="#"
-                >
-                  <span className="material-symbols-outlined">group</span>
-                  <p className="text-sm font-medium leading-normal">Customers</p>
-                </a>
-                <a
-                  className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
-                  href="#"
-                >
-                  <span className="material-symbols-outlined">bar_chart</span>
-                  <p className="text-sm font-medium leading-normal">Analytics</p>
-                </a>
+                <span className="material-symbols-outlined">group</span>
+                <p className="text-sm font-medium leading-normal">Customers</p>
+              </a>
+              <a
+                className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-green-primary/10 dark:hover:bg-background-dark/70 text-charcoal dark:text-off-white/80"
+                href="#"
+              >
+                <span className="material-symbols-outlined">bar_chart</span>
+                <p className="text-sm font-medium leading-normal">Analytics</p>
+              </a>
               </nav>
             </div>
             <div className="flex flex-col gap-1">
