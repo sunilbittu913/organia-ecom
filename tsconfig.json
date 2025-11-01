@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "types": ["astro/client"],
+    "moduleResolution": "bundler"
+  },
+  "extends": "astro/tsconfigs/strict"
+}
